@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Profile Card</title>
+    <style>
+        /* Task 3 Hint: Style for active status toggle */
+        .active-status {
+            background-color: #e3faf2;
+            border: 2px solid #2ecc71;
+        }
+        #profileCard {
+            padding: 20px;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-bottom: 15px;
+        }
+        button {
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="profileCard">
+        <img id="profileImage" src="https://placehold.co/100x100" alt="Profile Picture">
+        <h2 id="profileName">John Doe</h2>
+        <p id="profileRole">Software Developer</p>
+        <p id="profileBio">Passionate about coding and learning new technologies.</p>
+    </div>
+
+    <button id="updateNameBtn">Update Name</button>
+    <button id="updateRoleBtn">Update Role</button>
+    <button id="toggleStatusBtn">Toggle Active Status</button>
+    <button id="changeImageBtn">Change Image</button>
+
+    <script src="week8_ex02_dom_profile_card.js"></script>
+</body>
+</html>
